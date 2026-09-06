@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jakob Nielsen's 10 Usability Heuristics</title>
+<style>
+  :root {
+    --ink: #222222;
+    --gray: #6e6e6e;
+    --line: #e2e2e2;
+    --accent: #b24c3d;
+    --paper: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 80px 24px 120px;
+  }
+  header {
+    margin-bottom: 64px;
+  }
+  header h1 {
+    font-size: 2rem;
+    margin: 0 0 8px;
+  }
+  header p {
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--gray);
+    margin: 0;
+    font-size: 1rem;
+  }
+  .rule {
+    padding: 40px 0;
+    border-top: 1px solid var(--line);
+  }
+  .rule:last-child {
+    border-bottom: 1px solid var(--line);
+  }
+  .num {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--accent);
+    margin-bottom: 6px;
+  }
+  .title {
+    font-size: 1.35rem;
+    font-weight: bold;
+    margin: 0 0 14px;
+  }
+  .example {
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    color: #3a3a3a;
+    margin: 0 0 10px;
+  }
+  .why {
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 0.92rem;
+    font-style: italic;
+    color: var(--gray);
+    margin: 0;
+  }
+  .why b {
+    font-style: normal;
+    color: var(--ink);
+  }
+  footer {
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--gray);
+    font-size: 0.85rem;
+    margin-top: 60px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Jakob Nielsen's 10 Usability Heuristics</h1>
+      <p>Ten everyday examples, one idea each.</p>
+    </header>
+
+    <div class="rule">
+      <div class="num">01</div>
+      <div class="title">Visibility of System Status</div>
+      <p class="example">Gmail / Google Photos Trash shows &ldquo;Will be permanently deleted in 30 days&rdquo; next to deleted items.</p>
+      <p class="why"><b>Why it fits:</b> The system clearly tells users the current status of their files and what will happen next before it happens.</p>
+    </div>
+
+    <div class="rule">
+      <div class="num">02</div>
+      <div class="title">Match Between System and the Real World</div>
+      <p class="example">Bathroom sink hot and cold taps use red and blue, matching what people naturally expect.</p>
+      <p class="why"><b>Why it fits:</b> It uses familiar real-world conventions instead of requiring users to learn an arbitrary system.</p>
+    </div>
+
+    <div class="rule">
+      <div class="num">03</div>
+      <div class="title">User Control and Freedom</div>
+      <p class="example">Instagram DM / KakaoTalk &ldquo;Unsend&rdquo; allows users to take back a message after accidentally sending it.</p>
+      <p class="why"><b>Why it fits:</b> It provides an &ldquo;emergency exit&rdquo; when users make a mistake.</p>
+    </div>
+
+    <div class="rule">
+      <div class="num">04</div>
+      <div class="title">Consistency and Standards</div>
+      <p class="example">Traffic lights use red, yellow, and green consistently.</p>
+      <p class="why"><b>Why it fits:</b> Users do not need to relearn the meaning of the signals because the same colors have the same meaning everywhere.</p>
+    </div>
+
+    <div class="rule">
+      <div class="num">05</div>
+      <div class="title">Error Prevention</div>
+      <p class="example">ATMs often require users to take their card before receiving cash.</p>
+      <p class="why"><b>Why it fits:</b> The design prevents users from making a common mistake&mdash;forgetting their card&mdash;by controlling the order of actions.</p>
+    </div>
+
+    <div class="rule">
+      <div class="num">06</div>
+      <div class="title">Recognition Rather Than Recall</div>
+      <p class="example">Restaurant menus with photos show users what each dish looks like.</p>
+      <p class="why"><b>Why it fits:</b> Users can recognize their options visually instead of having to remember or imagine what each dish is.</p>
+    </div>
+
+    <div class="rule">
+      <div class="num">07</div>
+      <div class="title">Flexibility and Efficiency of Use</div>
+      <p class="example">Subway card readers allow experienced commuters to quickly tap their card while remaining simple enough for first-time users.</p>
+      <p class="why"><b>Why it fits:</b> The same system supports both experienced and inexperienced users.</p>
+    </div>
+
+    <div class="rule">
+      <div class="num">08</div>
+      <div class="title">Aesthetic and Minimalist Design</div>
+      <p class="example">Google's homepage contains only the essential elements: a logo, a search bar, and a few buttons.</p>
+      <p class="why"><b>Why it fits:</b> Nothing unnecessary competes for the user's attention.</p>
+    </div>
+
+    <div class="rule">
+      <div class="num">09</div>
+      <div class="title">Help Users Recognize, Diagnose, and Recover from Errors</div>
+      <p class="example">Naver Map automatically calculates a new route when a user misses a turn.</p>
+      <p class="why"><b>Why it fits:</b> Instead of simply telling the user that they made a mistake, the system recognizes the problem and immediately provides a solution.</p>
+    </div>
+
+    <div class="rule">
+      <div class="num">10</div>
+      <div class="title">Help and Documentation</div>
+      <p class="example">A &ldquo;?&rdquo; icon next to a password field can show password requirements when the user needs them.</p>
+      <p class="why"><b>Why it fits:</b> Help is available exactly where and when it is needed, without forcing users to search through a separate help page.</p>
+    </div>
+
+    <footer>Ari &middot; Visual Design, Week 1 Assignment</footer>
+  </div>
+</body>
+</html>
